@@ -21,6 +21,21 @@
 what will be excessive power?
 ## Don't reinvent the tire (Lessons)
 
+# Questions&Answers
+
+Q1) Hocam dönem projesinde bataryaya 2 A DC vermemiz gerekiyor fakat bunun 
+için kaç V DC vermek gerekiyor. Bu durumlar "State of Charge" a göre 
+de değişiyor kafam karıştı o yüzden. Batarya inputunu nasıl 
+ayarlamamız gerekiyor ? Açıklama yapabilir misiniz?
+Non-ideal koşullar için Simulink'te bir şey yapmıyorken PCB design 
+kısmında mı eklemeler olacak ?
+A1)
+Kaç volt ile bataryayı şarj etmeniz gerektiğini aslında akım kontrolcüsü belirleyecek. Bu yüzden akım kontrollü bir devre olması gerekiyor. State of charge'a göre bataryanın bir gerilimi var ve batarya o gerilimdeyken 2A ile şarj edebilmek için bir kontrolcü gerekiyor. Average mode current control yöntemlerine bakmanı tavsiye ederim. 
+
+Nonidealdan kastın eğer diode mosfet parametreleri devre endüktansları vs ise onları simülasyonda da modellemek gerekiyor ama bir gate driver sürücüsünü simulinkte çok basit bir modelle gösterirken PCB üzerinde devreyi detaylandırmak lazım.
+
+
+
 ## Working sheet
 ### Eren
 ### Büşra
