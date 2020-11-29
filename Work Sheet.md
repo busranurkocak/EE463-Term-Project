@@ -29,6 +29,7 @@ de değişiyor kafam karıştı o yüzden. Batarya inputunu nasıl
 ayarlamamız gerekiyor ? Açıklama yapabilir misiniz?
 Non-ideal koşullar için Simulink'te bir şey yapmıyorken PCB design 
 kısmında mı eklemeler olacak ?
+
 A1)
 Kaç volt ile bataryayı şarj etmeniz gerektiğini aslında akım kontrolcüsü belirleyecek. Bu yüzden akım kontrollü bir devre olması gerekiyor. State of charge'a göre bataryanın bir gerilimi var ve batarya o gerilimdeyken 2A ile şarj edebilmek için bir kontrolcü gerekiyor. Average mode current control yöntemlerine bakmanı tavsiye ederim. 
 
