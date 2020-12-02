@@ -39,5 +39,8 @@ Nonidealdan kastın eğer diode mosfet parametreleri devre endüktansları vs is
 
 ## Working sheet
 ### Eren
+
+Daniel W. Hart - Power Electronics-McGraw-Hill Science_Engineering_Math (2010)---> Buck Converter Design
+
 ### Büşra
 ### Yunus
