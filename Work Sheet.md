@@ -41,6 +41,7 @@ Nonidealdan kastın eğer diode mosfet parametreleri devre endüktansları vs is
 ### Eren
 
 Daniel W. Hart - Power Electronics-McGraw-Hill Science_Engineering_Math (2010)---> Buck Converter Design
+Basic Calculation of a Buck Converter's Power Stage --> Texas design application note
 
 ### Büşra
 ### Yunus
