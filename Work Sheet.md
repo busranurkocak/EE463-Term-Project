@@ -59,3 +59,8 @@ https://www.smps.us/pcbtracespacing.html --> Link for PCB Design
  - The voltage drop is appr. 22.5V (10.58ohm*2.1A)
  - Another voltage drop at the output is due to armature inductance of generator >> bkz. Commutation (3w Ls Id/ π)
  
+
+
+### Inductor and Capacitor Calculations for Buck Converter
+http://rohmfs.rohm.com/en/products/databook/applinote/ic/power/switching_regulator/capacitor_calculation_appli-e.pdf
+http://rohmfs.rohm.com/en/products/databook/applinote/ic/power/switching_regulator/inductor_calculation_appli-e.pdf
