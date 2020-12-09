@@ -19,6 +19,8 @@
 ## Questions
 - If the charging voltage and current is same, the supplied power to battery is the same(?). However, if the mechanical input power is considerably high,
 what will be excessive power?
+- What is open circuit voltage in the specs of project?
+ - Is open circuit voltage related with maximum rotational speed of wind turbine?
 ## Don't reinvent the tire (Lessons)
 
 # Questions&Answers
@@ -45,3 +47,14 @@ Basic Calculation of a Buck Converter's Power Stage --> Texas design application
 
 ### Büşra
 ### Yunus
+#### Generator Model And Diode Rectifier
+- The generator input is mechanical torque
+ - If the sign is (-), it represents PMSM works as a generator.
+ - T_e = T_f + B_m w + T_m
+ - T_e = 1.5 p λ Iq (*Since rotor is round, there is no effect of I_directaxis*)
+ - λ = V_ph,peak / w = 0.606 for model
+- The stator resistance 10.58 ohm 
+ - The voltage drop on generator terminal occurs due to stator resistance
+ - The voltage drop is appr. 22.5V (10.58ohm*2.1A)
+ - Another voltage drop at the output is due to armature inductance of generator >> bkz. Commutation (3w Ls Id/ π)
+ 
