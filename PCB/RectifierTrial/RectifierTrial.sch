@@ -1,0 +1,176 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:CP C1
+U 1 1 5FD052A9
+P 6400 3000
+F 0 "C1" H 6518 3046 50  0000 L CNN
+F 1 "0.004" H 6518 2955 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P2.50mm" H 6438 2850 50  0001 C CNN
+F 3 "~" H 6400 3000 50  0001 C CNN
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3150 6400 3400
+Wire Wire Line
+	6400 2850 6400 2600
+Wire Wire Line
+	6850 2950 6850 2600
+Wire Wire Line
+	6850 2600 6400 2600
+Connection ~ 6400 2600
+Wire Wire Line
+	6850 3050 6850 3400
+Wire Wire Line
+	6850 3400 6400 3400
+Connection ~ 6400 3400
+$Comp
+L Device:D D1
+U 1 1 5FD0E608
+P 5050 2650
+F 0 "D1" V 5004 2730 50  0000 L CNN
+F 1 "D" V 5095 2730 50  0000 L CNN
+F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5050 2650 50  0001 C CNN
+F 3 "~" H 5050 2650 50  0001 C CNN
+	1    5050 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5FD0F417
+P 5500 2650
+F 0 "D3" V 5454 2730 50  0000 L CNN
+F 1 "D" V 5545 2730 50  0000 L CNN
+F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5500 2650 50  0001 C CNN
+F 3 "~" H 5500 2650 50  0001 C CNN
+	1    5500 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5FD0F562
+P 5850 2650
+F 0 "D5" V 5804 2730 50  0000 L CNN
+F 1 "D" V 5895 2730 50  0000 L CNN
+F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5850 2650 50  0001 C CNN
+F 3 "~" H 5850 2650 50  0001 C CNN
+	1    5850 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5FD0F91E
+P 5050 3300
+F 0 "D2" V 5004 3380 50  0000 L CNN
+F 1 "D" V 5095 3380 50  0000 L CNN
+F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5050 3300 50  0001 C CNN
+F 3 "~" H 5050 3300 50  0001 C CNN
+	1    5050 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5FD0FB6D
+P 5500 3300
+F 0 "D4" V 5454 3380 50  0000 L CNN
+F 1 "D" V 5545 3380 50  0000 L CNN
+F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5500 3300 50  0001 C CNN
+F 3 "~" H 5500 3300 50  0001 C CNN
+	1    5500 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5FD0FF24
+P 5850 3300
+F 0 "D6" V 5804 3380 50  0000 L CNN
+F 1 "D" V 5895 3380 50  0000 L CNN
+F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5850 3300 50  0001 C CNN
+F 3 "~" H 5850 3300 50  0001 C CNN
+	1    5850 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 2800 5500 2950
+Wire Wire Line
+	5850 2800 5850 3050
+Wire Wire Line
+	5850 2500 5500 2500
+Wire Wire Line
+	5050 2500 5500 2500
+Connection ~ 5500 2500
+Wire Wire Line
+	5850 3450 5500 3450
+Wire Wire Line
+	5050 3450 5500 3450
+Connection ~ 5500 3450
+Wire Wire Line
+	6250 2600 6250 2500
+Wire Wire Line
+	6250 2500 5850 2500
+Connection ~ 5850 2500
+Wire Wire Line
+	6250 3400 6250 3450
+Wire Wire Line
+	6250 3450 5850 3450
+Connection ~ 5850 3450
+Wire Wire Line
+	6250 2600 6400 2600
+Wire Wire Line
+	6250 3400 6400 3400
+Wire Wire Line
+	5050 2800 5050 2850
+Wire Wire Line
+	4400 2850 5050 2850
+Connection ~ 5050 2850
+Wire Wire Line
+	5050 2850 5050 3150
+Wire Wire Line
+	4400 2950 5500 2950
+Connection ~ 5500 2950
+Wire Wire Line
+	5500 2950 5500 3150
+Wire Wire Line
+	4400 3050 5850 3050
+Connection ~ 5850 3050
+Wire Wire Line
+	5850 3050 5850 3150
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5FD19890
+P 4200 2950
+F 0 "J1" H 4118 3267 50  0000 C CNN
+F 1 "Conn_01x03" H 4118 3176 50  0000 C CNN
+F 2 "Connector:Banana_Jack_3Pin" H 4200 2950 50  0001 C CNN
+F 3 "~" H 4200 2950 50  0001 C CNN
+	1    4200 2950
+	-1   0    0    -1  
+$EndComp
+Entry Wire Line
+	3950 3750 4050 3850
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5FD1C7EA
+P 7050 2950
+F 0 "J2" H 7130 2942 50  0000 L CNN
+F 1 "Conn_01x02" H 7130 2851 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" H 7050 2950 50  0001 C CNN
+F 3 "~" H 7050 2950 50  0001 C CNN
+	1    7050 2950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
