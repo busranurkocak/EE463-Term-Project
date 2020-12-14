@@ -11,6 +11,7 @@
 
 ## Important Points
 - The chosen topology: > 3-phase diode rectifier - Buck concerter
+- [Component Selection](https://docs.google.com/spreadsheets/d/18dKjuWLqObFdQG8-OYO9TVY_dkH0GvvEznTR0hDK3Jo/edit?usp=sharing)
 ## Plans
 - **25.11.2020**
   - Buck converter will be researched. 
