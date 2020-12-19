@@ -1,4 +1,4 @@
-update=9 Ara 2020 16:49:59
+update=19 Ara 2020 17:22:55
 version=1
 last_client=kicad
 [general]
@@ -25,9 +25,9 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=RectifierTrial2.net
+LastNetListRead=RectifierTrial5.net
 CopperLayerCount=2
-BoardThickness=1.6
+BoardThickness=0.035
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
@@ -38,7 +38,7 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=1.5
+TrackWidth1=0.4
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -67,10 +67,10 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
@@ -237,8 +237,8 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.6
-TrackWidth=1.5
+Clearance=2.5
+TrackWidth=0.4
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

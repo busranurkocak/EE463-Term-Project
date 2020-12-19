@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Diode Rectifier"
+Date "2020-12-19"
 Rev ""
 Comp ""
 Comment1 ""
@@ -18,8 +18,8 @@ L Device:CP C1
 U 1 1 5FD052A9
 P 6400 3000
 F 0 "C1" H 6518 3046 50  0000 L CNN
-F 1 "0.004" H 6518 2955 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P2.50mm" H 6438 2850 50  0001 C CNN
+F 1 "56uF" H 6518 2955 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 6438 2850 50  0001 C CNN
 F 3 "~" H 6400 3000 50  0001 C CNN
 	1    6400 3000
 	1    0    0    -1  
@@ -44,7 +44,7 @@ U 1 1 5FD0E608
 P 5050 2650
 F 0 "D1" V 5004 2730 50  0000 L CNN
 F 1 "D" V 5095 2730 50  0000 L CNN
-F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5050 2650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 5050 2650 50  0001 C CNN
 F 3 "~" H 5050 2650 50  0001 C CNN
 	1    5050 2650
 	0    1    1    0   
@@ -55,7 +55,7 @@ U 1 1 5FD0F417
 P 5500 2650
 F 0 "D3" V 5454 2730 50  0000 L CNN
 F 1 "D" V 5545 2730 50  0000 L CNN
-F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5500 2650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 5500 2650 50  0001 C CNN
 F 3 "~" H 5500 2650 50  0001 C CNN
 	1    5500 2650
 	0    1    1    0   
@@ -66,7 +66,7 @@ U 1 1 5FD0F562
 P 5850 2650
 F 0 "D5" V 5804 2730 50  0000 L CNN
 F 1 "D" V 5895 2730 50  0000 L CNN
-F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5850 2650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 5850 2650 50  0001 C CNN
 F 3 "~" H 5850 2650 50  0001 C CNN
 	1    5850 2650
 	0    1    1    0   
@@ -77,7 +77,7 @@ U 1 1 5FD0F91E
 P 5050 3300
 F 0 "D2" V 5004 3380 50  0000 L CNN
 F 1 "D" V 5095 3380 50  0000 L CNN
-F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5050 3300 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 5050 3300 50  0001 C CNN
 F 3 "~" H 5050 3300 50  0001 C CNN
 	1    5050 3300
 	0    1    1    0   
@@ -88,7 +88,7 @@ U 1 1 5FD0FB6D
 P 5500 3300
 F 0 "D4" V 5454 3380 50  0000 L CNN
 F 1 "D" V 5545 3380 50  0000 L CNN
-F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5500 3300 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 5500 3300 50  0001 C CNN
 F 3 "~" H 5500 3300 50  0001 C CNN
 	1    5500 3300
 	0    1    1    0   
@@ -99,7 +99,7 @@ U 1 1 5FD0FF24
 P 5850 3300
 F 0 "D6" V 5804 3380 50  0000 L CNN
 F 1 "D" V 5895 3380 50  0000 L CNN
-F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 5850 3300 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 5850 3300 50  0001 C CNN
 F 3 "~" H 5850 3300 50  0001 C CNN
 	1    5850 3300
 	0    1    1    0   
@@ -160,15 +160,13 @@ F 3 "~" H 4200 2950 50  0001 C CNN
 	1    4200 2950
 	-1   0    0    -1  
 $EndComp
-Entry Wire Line
-	3950 3750 4050 3850
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5FD1C7EA
 P 7050 2950
 F 0 "J2" H 7130 2942 50  0000 L CNN
 F 1 "Conn_01x02" H 7130 2851 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" H 7050 2950 50  0001 C CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 7050 2950 50  0001 C CNN
 F 3 "~" H 7050 2950 50  0001 C CNN
 	1    7050 2950
 	1    0    0    -1  
